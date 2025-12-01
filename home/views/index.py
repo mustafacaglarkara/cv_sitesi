@@ -9,3 +9,4 @@ def index(request):
         'isim': "Mustafa Çağlar KARA"
     }
     return render(request, 'index.html', context)
+
